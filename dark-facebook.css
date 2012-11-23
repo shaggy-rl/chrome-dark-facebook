@@ -14,8 +14,7 @@
 span, div, ul, li {
 	color: #c5c5c5 !important;
 }
-.clearfix, .coverBorder,
-a > div,
+.clearfix, .coverBorder, a > div,
 .fbTimelineNavigationWrapper .tab .frame,
 .fbTimelineNavigationWrapper .tab .frame .mat {
 	background: transparent !important;
