@@ -14,10 +14,11 @@
 span, div, ul, li {
 	color: #c5c5c5 !important;
 }
-.clearfix, .coverBorder, a > div,
-.fbTimelineNavigationWrapper .tab .frame,
+.clearfix, .coverBorder, a > div, .stage, .stage *, .fbPhotosPhotoTagboxes,
+.fbPhotosPhotoTagboxes *, .fbTimelineNavigationWrapper .tab .frame,
 .fbTimelineNavigationWrapper .tab .frame .mat {
 	background: transparent !important;
+	background-color: transparent !important;
 }
 
 /* Links */
@@ -28,13 +29,16 @@ a:hover {
 	background-color: #444 !important;
 	color: #ccc !important;
 }
-.uiSideNav .sideNavItem .noCount, a span,
-.uiButton {
-	background-color: transparent !important;
+.uiSideNav .sideNavItem .noCount, a span, .uiButton,
+.fbChatSidebar .fbFeedTicker .fbFeedTickerStory {
+	background: transparent !important;
 }
-.item, #pageNav #navAccount .navSubmenu,
-.itemAnchor {
+.item, #pageNav #navAccount .navSubmenu, .itemAnchor {
 	border: none !important;
+}
+.fbChatSidebar .fbFeedTicker .fbFeedTickerStory:hover {
+	background: transparent !important;
+	border-left: 2px solid #ddd;
 }
 
 /******************* Top Bar *****************/
