@@ -1,0 +1,74 @@
+/*********************************************
+ * Dark Facebook
+ *
+ * Author: Dave Eddy <dave@daveeddy.com>
+ * License: MIT
+ *
+**********************************************/
+
+/******************* Body ********************/
+* {
+	background-color: #050505 !important;
+	color: #e5e5e5 !important;
+}
+span, div, ul, li {
+	color: #c5c5c5 !important;
+}
+.clearfix, .coverBorder,
+a > div,
+.fbTimelineNavigationWrapper .tab .frame,
+.fbTimelineNavigationWrapper .tab .frame .mat {
+	background: transparent !important;
+}
+
+/* Links */
+a {
+	color: #eee !important;
+}
+a:hover {
+	background-color: #444 !important;
+	color: #ccc !important;
+}
+.uiSideNav .sideNavItem .noCount, a span,
+.uiButton {
+	background-color: transparent !important;
+}
+.item, #pageNav #navAccount .navSubmenu,
+.itemAnchor {
+	border: none !important;
+}
+
+/******************* Top Bar *****************/
+#blueBar {
+	background-color: black !important;
+}
+#jewelContainer {
+	float: right;
+}
+#pageNav {
+	float: right;
+}
+#headNav .uiSearchInput button {
+	background-color: #222;
+}
+
+/* Input */
+#navSearch .uiSearchInput {
+	background-color: #222;
+	border-top: none !important;
+}
+#navSearch .uiSearchInput input {
+	background-color: #222;
+}
+
+/******************* Navigation *************/
+.navigation {
+	background-color: black !important;
+	border: 1px dashed #ccc;
+}
+
+/******************* Content ****************/
+.hasExpandedComposer .uiStream .uiStreamHeader {
+	padding-top: 15px !important;
+	border-top: none !important;
+}
