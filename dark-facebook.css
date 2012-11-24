@@ -30,6 +30,7 @@ a:hover {
 	color: #ccc !important;
 }
 .uiSideNav .sideNavItem .noCount, a span, .uiButton,
+.uiSideNav .sideNavItem .hasCount,
 .fbChatSidebar .fbFeedTicker .fbFeedTickerStory {
 	background: transparent !important;
 }
@@ -72,6 +73,21 @@ a:hover {
 
 /******************* Content ****************/
 .hasExpandedComposer .uiStream .uiStreamHeader {
-	padding-top: 15px !important;
+	padding-top: 5px !important;
 	border-top: none !important;
+}
+
+/******************* Profile ****************/
+#fbProfilePicSelector {
+	border: 1px solid #ddd;
+}
+#fbProfilePicSelector .uiButtonText {
+	color: #ddd !important;
+}
+#fbProfileCover .fbTimelineSelectorButton, #fbProfileCover
+.fbTimelineSelectorButton:focus, #fbProfileCover
+.fbTimelineSelectorButton:hover, #fbProfileCover .fbProfileCoverPhotoSelector
+.uiSelectorMenuWrapper, #fbProfileCover .fbTimelineProfilePicSelector
+.uiSelectorMenuWrapper {
+	opacity: 1 !important;
 }
